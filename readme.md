@@ -7,7 +7,7 @@ This repo contains an easy to set up jupyter notebook environment. It uses docke
 The only thing you need to do is make sure you have docker and docker compose installed and run the following command:
 
 ```
-docker composee up --build -d
+docker compose up --build -d
 ```
 
 The build tag makes sure that the image is rebuilt if any changes happened, for example to the requirement file
