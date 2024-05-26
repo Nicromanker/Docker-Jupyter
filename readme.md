@@ -1,4 +1,4 @@
-# Docker-jupyter
+# Docker-jupyter 🐀
 
 This repo contains an easy to set up jupyter notebook environment. It uses docker-compose, so that it works on your or any machine for that matter. Also because python module installation gives my computer the absolute ick, but this is a judgement free zone.
 
