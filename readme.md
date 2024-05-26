@@ -24,5 +24,4 @@ docker compose down
 
 ## Changing Mode
 
-If for some reason you would like to use light mode, it can be changed in the theme folder, by changing the settins file theme into ==JupyterLab Light== 
-
+If for some reason you would like to use light mode, it can be changed in the theme folder, by changing the settins file theme into `JupyterLab Light`
