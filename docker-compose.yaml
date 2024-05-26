@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  baseline-jupyter:
+    container_name: "baseline-jupyter"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./work:/home/jovyan/work
+    ports:
+      - "8888:8888"
+    command: "start-notebook.sh --NotebookApp.token="
+
